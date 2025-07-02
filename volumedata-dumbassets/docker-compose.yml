@@ -2,11 +2,12 @@ version: "3.7"
 
 services:
 
-#  app_proxy:
-#    environment:
+  app_proxy:
+    environment:
       # The format here is: <app-id>_<docker-service-name>_1
-#      APP_HOST: volumedata_dumbassets_1
-#      APP_PORT: 21001
+      APP_HOST: volumedata_dumbassets_1
+      APP_PORT: 21001
+    container_name: volumedata_dumbassets_app_proxy_1
       
   dumbassets:
     container_name: volumedata_dumbassets_1
@@ -25,6 +26,4 @@ services:
       DUMBASSETS_PIN: ${DUMBASSETS_PIN:-1234}
       ALLOWED_ORIGINS: ${DUMBASSETS_ALLOWED_ORIGINS:-*}
       APPRISE_URL: ${DUMBASSETS_APPRISE_URL:-}
-      APP_HOST: volumedata_dumbassets_1
-      APP_PORT: 46001
       # ...other env vars
