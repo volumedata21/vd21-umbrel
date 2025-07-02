@@ -5,7 +5,7 @@ tagline: A stupid simple asset tracker
 icon: https://dumbware.io/software/DumbAssets/dumbassets.svg
 category: Development
 version: "1.0.0"
-port: 21001
+port: 46001
 description: >-
   A stupid simple asset tracker for keeping track of your physical assets, their components, and applicable warranties and routine maintenance.
 
