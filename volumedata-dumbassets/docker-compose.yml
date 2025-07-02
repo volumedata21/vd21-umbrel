@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   dumbassets:
-    container_name: dumbassets
+    container_name: volumedata-dumbassets_1
     image: dumbwareio/dumbassets:latest
     ports: 
       - 46001:3000
@@ -18,4 +18,6 @@ services:
       DUMBASSETS_PIN: ${DUMBASSETS_PIN:-1234}
       ALLOWED_ORIGINS: ${DUMBASSETS_ALLOWED_ORIGINS:-*}
       APPRISE_URL: ${DUMBASSETS_APPRISE_URL:-}
+      APP_HOST: volumedata-dumbassets_1
+      APP_PORT: 46001
       # ...other env vars
