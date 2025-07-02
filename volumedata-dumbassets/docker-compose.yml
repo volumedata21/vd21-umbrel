@@ -2,14 +2,14 @@ version: "3.7"
 
 services:
 
-  app_proxy:
-    environment:
+#  app_proxy:
+#    environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: volumedata_dumbassets_1
-      APP_PORT: 21001
+#      APP_HOST: volumedata_dumbassets_1
+#      APP_PORT: 21001
       
   dumbassets:
-    container_name: dumbassets
+    container_name: volumedata_dumbassets_1
     image: dumbwareio/dumbassets:latest
     ports: 
       - 21001:3000
