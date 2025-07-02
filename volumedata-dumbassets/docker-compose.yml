@@ -25,4 +25,6 @@ services:
       DUMBASSETS_PIN: ${DUMBASSETS_PIN:-1234}
       ALLOWED_ORIGINS: ${DUMBASSETS_ALLOWED_ORIGINS:-*}
       APPRISE_URL: ${DUMBASSETS_APPRISE_URL:-}
+      APP_PORT: 46001
+      APP_HOST: volumedata_dumbassets_1
       # ...other env vars
