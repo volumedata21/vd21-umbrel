@@ -12,7 +12,7 @@ services:
     container_name: volumedata_dumbassets_1
     image: dumbwareio/dumbassets:latest
     ports: 
-      - 21001:3000
+      - 46001:3000
     volumes:
       - ./data:/app/data
     restart: unless-stopped
