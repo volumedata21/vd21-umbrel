@@ -1,27 +1,30 @@
 manifestVersion: 1
-id: volumedata-dumbassets
-name: Dumb Assets
-tagline: A stupid simple asset tracker
-icon: https://dumbware.io/software/DumbAssets/dumbassets.svg
+id: sparkles-hello-world
+name: Hello World
+tagline: Replace this tagline with your app's tagline
+icon: https://svgur.com/i/mvA.svg
 category: Development
-version: "1"
+version: "1.0.0"
 port: 46001
 description: >-
-  A stupid simple asset tracker for keeping track of your physical assets, their components, and applicable warranties and routine maintenance.
+  Add your app's description here.
 
-developer: Dumbware.io
-website: https://dumbware.io
-submitter: VolumeData21
-submission: https://github.com/volumedata21/vd21-umbrel
-repo: https://github.com/volumedata21/vd21-umbrel
-support: https://github.com/volumedata21/vd21-umbrel
+
+  You can also add newlines!
+
+developer: Umbrel
+website: https://umbrel.com
+submitter: Umbrel
+submission: https://github.com/getumbrel/umbrel-hello-world-app
+repo: https://github.com/getumbrel/umbrel-hello-world-app
+support: https://github.com/getumbrel/umbrel-hello-world-app/issues
 gallery:
-  - https://dumbware.io/software/DumbAssets/DumbassetsScreenshot.png
-  - https://dumbware.io/software/DumbAssets/DumbassetsScreenshot.png
-  - https://dumbware.io/software/DumbAssets/DumbassetsScreenshot.png
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
 releaseNotes: >-
   Add what's new in the latest version of your app here.
 dependencies: []
 path: ""
 defaultUsername: ""
-defaultPassword: "1234"
+defaultPassword: ""
