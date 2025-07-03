@@ -1,9 +1,4 @@
-version: '3.7'
 services:
-  app_proxy:
-    environment:
-      APP_HOST: volumedata_minecraft_1
-      APP_PORT: 25565
   mc:
     image: itzg/minecraft-server
     container_name: volumedata_minecraft_1
