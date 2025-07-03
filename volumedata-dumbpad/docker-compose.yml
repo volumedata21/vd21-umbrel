@@ -1,7 +1,7 @@
 services:
   dumbpad:
     image: dumbwareio/dumbpad:latest
-    container_name: dumbpad
+    container_name: volumedata-dumbpad_1
     restart: unless-stopped
     ports:
       - 46002:3000
